@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("|__labmem_001_sorting_algorithms__|");
+		System.out.println("|__labmem_002_sorting_algorithms__|");
 		Scanner scanner = new Scanner (System.in);
 		int exit = 0;
 		do {
@@ -13,8 +13,6 @@ public class Main {
 			System.out.println("|3)Insertion Sort                 |");
 			System.out.println("|4)Shuttle Sort                   |");
 			System.out.println("|5)Shell Sort                     |");
-			System.out.println("|6)Merge Sort                     |");
-			System.out.println("|7)Quick Sort                     |");
 			System.out.println("|0)Exit                           |");
 			System.out.printf("|>> ");
 			String ch = scanner.nextLine();
@@ -50,15 +48,7 @@ public class Main {
 			case ("5"):
 			{
 				System.out.println();
-			}
-			break;
-			case ("6"):
-			{
-				System.out.println();
-			}
-			break;
-			case ("7"):
-			{
+				ShellSort sort = new ShellSort ();
 				System.out.println();
 			}
 			break;
